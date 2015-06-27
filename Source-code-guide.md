@@ -1,5 +1,3 @@
-## Example application
-
 Everybody's doing todos these days, so I've decided to do something different, albeit maybe a bit less useful. We'll be building a film database, with a 1:N relation between directors and films. User authentication baked in. This is not a step-by-step guide, rather a showcase of the most interesting bits of code. If you want to dive right in, the whole application code is available on [github](https://github.com/tomaash/react-example-filmdb). Also, to have a general idea how it looks, you can try out the application running on [Heroku](http://react-example-filmdb.herokuapp.com/).
 
 ### Backend
