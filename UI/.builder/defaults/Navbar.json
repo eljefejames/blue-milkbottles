@@ -1,0 +1,231 @@
+[
+  {
+    "props": {
+      "brand": "Brand",
+      "inverse": true,
+      "staticTop": true
+    },
+    "children":[
+      {
+        "type": "Nav",
+        "children":[
+          {
+            "type": "NavItem",
+            "props": {"href": "#"},
+            "children":[
+              {"type": "span", "text": "Link"}
+            ]
+          },
+          {
+            "type": "NavItem",
+            "props": {"href": "#"},
+            "children":[
+              {"type": "span", "text": "Link"}
+            ]
+          },
+          {
+            "type": "DropdownButton",
+            "props":{
+              "title": "Dropdown"
+            },
+            "children":[
+              {
+                "type": "MenuItem",
+                "props":{
+                  "eventKey": "1"
+                },
+                "children":[
+                  {"type": "span", "text": "Dropdown link"}
+                ]
+              },
+              {
+                "type": "MenuItem",
+                "props":{
+                  "eventKey": "2"
+                },
+                "children":[
+                  {"type": "span", "text": "Dropdown link"}
+                ]
+              },
+              {
+                "type": "MenuItem",
+                "props":{ "divider": true }
+              },
+              {
+                "type": "MenuItem",
+                "props":{
+                  "eventKey": "3"
+                },
+                "children":[
+                  {"type": "span", "text": "Dropdown link"}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "props": {
+      "brand": "Brand",
+      "inverse": true,
+      "staticTop": true
+    },
+    "children": [
+      {
+        "type": "Nav",
+        "children": [
+          {
+            "type": "NavItem",
+            "props": {"href": "#"},
+            "children": [
+              {
+                "type": "span",
+                "text": "Link",
+                "props": {}
+              }
+            ]
+          },
+          {
+            "type": "NavItem",
+            "props": {"href": "#"},
+            "children": [
+              {
+                "type": "span",
+                "text": "Link",
+                "props": {}
+              }
+            ]
+          },
+          {
+            "type": "DropdownButton",
+            "props": {"title": "Dropdown"},
+            "children": [
+              {
+                "type": "MenuItem",
+                "props": {"eventKey": "1"},
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "Dropdown link",
+                    "props": {}
+                  }
+                ]
+              },
+              {
+                "type": "MenuItem",
+                "props": {"eventKey": "2"},
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "Dropdown link",
+                    "props": {}
+                  }
+                ]
+              },
+              {
+                "type": "MenuItem",
+                "props": {"divider": true}
+              },
+              {
+                "type": "MenuItem",
+                "props": {"eventKey": "3"},
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "Dropdown link",
+                    "props": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "props": {"right": true}
+      }
+    ]
+  },
+  {"type":"Navbar","props":{"brand":{"type":"div","children":[{"type":"a","props":{"href":"#"},"children":[{"type":"span","text":"Brand","props":{}}]}],"props":{}},"inverse":true,"staticTop":true},"children":[{"type":"Nav","children":[{"type":"NavItem","props":{"href":"#"},"children":[{"type":"span","text":"Link","props":{}}]},{"type":"NavItem","props":{"href":"#"},"children":[{"type":"span","text":"Link","props":{}}]},{"type":"DropdownButton","props":{"title":"Dropdown"},"children":[{"type":"MenuItem","props":{"eventKey":"1"},"children":[{"type":"span","text":"Dropdown link","props":{}}]},{"type":"MenuItem","props":{"eventKey":"2"},"children":[{"type":"span","text":"Dropdown link","props":{}}]},{"type":"MenuItem","props":{"divider":true}},{"type":"MenuItem","props":{"eventKey":"3"},"children":[{"type":"span","text":"Dropdown link","props":{}}]}]}],"props":{"right":true}}]},
+  {
+    "type": "Navbar",
+    "props": {
+      "brand": "Brand",
+      "inverse": false,
+      "staticTop": false
+    },
+    "children": [
+      {
+        "type": "Nav",
+        "children": [
+          {
+            "type": "NavItem",
+            "props": {"href": "#"},
+            "children": [
+              {
+                "type": "span",
+                "text": "Link",
+                "props": {}
+              }
+            ]
+          },
+          {
+            "type": "NavItem",
+            "props": {"href": "#"},
+            "children": [
+              {
+                "type": "span",
+                "text": "Link",
+                "props": {}
+              }
+            ]
+          },
+          {
+            "type": "DropdownButton",
+            "props": {"title": "Dropdown"},
+            "children": [
+              {
+                "type": "MenuItem",
+                "props": {"eventKey": "1"},
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "Dropdown link",
+                    "props": {}
+                  }
+                ]
+              },
+              {
+                "type": "MenuItem",
+                "props": {"eventKey": "2"},
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "Dropdown link",
+                    "props": {}
+                  }
+                ]
+              },
+              {
+                "type": "MenuItem",
+                "props": {"divider": true}
+              },
+              {
+                "type": "MenuItem",
+                "props": {"eventKey": "3"},
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "Dropdown link",
+                    "props": {}
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "props": {}
+      }
+    ]
+  }
+]

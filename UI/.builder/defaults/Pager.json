@@ -1,0 +1,4 @@
+[
+  {"type":"Pager","props":{},"children":[{"type":"PageItem","props":{"href":"#"},"children":[{"type":"span","props":{},"children":[],"text":"Previous"}]},{"type":"PageItem","props":{"href":"#"},"children":[{"type":"span","props":{},"children":[],"text":"Next"}]}]},
+  {"type":"Pager","props":{},"children":[{"type":"PageItem","props":{"href":"#","previous":true},"children":[{"type":"span","props":{},"children":[],"text":"Previous"}]},{"type":"PageItem","props":{"href":"#","next":true},"children":[{"type":"span","props":{},"children":[],"text":"Next"}]}]}
+]

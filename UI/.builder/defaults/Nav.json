@@ -1,0 +1,62 @@
+[
+  {
+    "props": {
+      "right": true
+    },
+    "children":[
+      {
+        "type": "NavItem",
+        "props": {"href": "#"},
+        "children":[
+          {"type": "span", "text": "Link"}
+        ]
+      },
+      {
+        "type": "NavItem",
+        "props": {"href": "#"},
+        "children":[
+          {"type": "span", "text": "Link"}
+        ]
+      },
+      {
+        "type": "DropdownButton",
+        "props":{
+          "title": "Dropdown"
+        },
+        "children":[
+          {
+            "type": "MenuItem",
+            "props":{
+              "eventKey": "1"
+            },
+            "children":[
+              {"type": "span", "text": "Dropdown link"}
+            ]
+          },
+          {
+            "type": "MenuItem",
+            "props":{
+              "eventKey": "2"
+            },
+            "children":[
+              {"type": "span", "text": "Dropdown link"}
+            ]
+          },
+          {
+            "type": "MenuItem",
+            "props":{ "divider": true }
+          },
+          {
+            "type": "MenuItem",
+            "props":{
+              "eventKey": "3"
+            },
+            "children":[
+              {"type": "span", "text": "Dropdown link"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
