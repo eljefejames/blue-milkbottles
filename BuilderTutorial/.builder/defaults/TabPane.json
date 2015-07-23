@@ -1,0 +1,3 @@
+[
+  {"type":"TabPane","props":{"tab":"Tab 2","style":{"padding":"0.5em"},"eventKey":1},"children":[{"type":"Panel","props":{},"children":[{"type":"p","children":[{"type":"span","text":"Empty","props":{}}],"props":{}}]}],"componentName":null}
+]

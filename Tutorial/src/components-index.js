@@ -29,6 +29,11 @@ var Bootstrap = {
         Label: ReactBootstrap.Label,
         Badge: ReactBootstrap.Badge
     },
-    Enhanced: { LoadingButton: require('./components/Enhanced/LoadingButton.js') }
+    Enhanced: { LoadingButton: require('./components/Enhanced/LoadingButton.js') },
+    Tutorial: {
+        CommentForm: require('./components/Tutorial/CommentForm.js'),
+        CommentList: require('./components/Tutorial/CommentList.js'),
+        CommentsForm: require('./components/Tutorial/CommentsForm.js')
+    }
 };
 module.exports = Bootstrap;

@@ -2,11 +2,20 @@
 <html>
   <head>
     <title>Hello React</title>
-    <!-- Not present in the tutorial. Just for basic styling. -->
+    <!-- Not present in the tutorial. Just for basic styling. TESTEST -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   <body>
     <div id="content"></div>
-    <script src="./bundle.js"></script>
+  <!--  <script src="test.js"></script>
+    <script src="../builder/test.js"></script>
+    <script src="../builder/build/test.js"></script> -->
+    <script src="../builder/build/bundle.js"></script> <!--this is the right path-->
+    <script>
+    var path = require('path');
+var appDir = path.dirname(require.main.filename);
+console.log(path);
+console.log(appDir);
+</script>
   </body>
 </html>

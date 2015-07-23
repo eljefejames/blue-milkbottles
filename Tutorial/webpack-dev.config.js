@@ -7,7 +7,7 @@ module.exports = [
             main: './src/main.js'
         },
         output: {
-            path: './public',
+            path: '../builder/build',
             filename: 'bundle.js'
         },
         debug: true,
@@ -26,4 +26,3 @@ module.exports = [
         }
     }
 ];
-
