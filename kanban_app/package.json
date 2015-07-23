@@ -1,16 +1,25 @@
 {
   "name": "kanban_app",
-  "version": "1.0.0",
-  "description": "A cheeky little app for learning react and flux",
+  "version": "0.0.0",
+  "description": "Webpack demo app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "TARGET=build webpack",
+    "start": "TARGET=dev webpack-dev-server --devtool eval-source --progress --colors --hot --inline --history-api-fallback"
   },
-  "author": "moi",
-  "license": "ISC",
+  "keywords": [
+    "webpack",
+    "demo"
+  ],
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
+    "css-loader": "^0.15.5",
+    "html-webpack-plugin": "^1.6.0",
     "node-libs-browser": "^0.5.2",
-    "webpack": "^1.10.1"
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1",
+    "webpack-merge": "^0.1.2"
   }
 }
