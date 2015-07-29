@@ -1,4 +1,6 @@
-export default {
+export const storageName = 'kanban_storage';
+
+export const storage = {
   get: function(k) {
     try {
       return JSON.parse(localStorage.getItem(k));
@@ -11,3 +13,9 @@ export default {
     localStorage.setItem(k, JSON.stringify(v));
   }
 };
+
+export function getInitialData(storeName) {
+  const data = storage.get(storageName);
+
+  return data && data[storeName];
+}
