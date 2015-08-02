@@ -1,38 +1,27 @@
+import uuid from 'node-uuid';
 import AltContainer from 'alt/AltContainer';
 import React from 'react';
-
-import alt from '../libs/alt';
 import Lanes from './Lanes';
 import LaneActions from '../actions/LaneActions';
 import LaneStore from '../stores/LaneStore';
-import persist from '../decorators/persist';
-import {storage, storageName, getInitialData} from '../libs/storage';
 
-
-@persist(storage, storageName, () => JSON.parse(alt.takeSnapshot()))
 export default class App extends React.Component {
-  constructor() {
-    super();
-
-    LaneActions.init(getInitialData('LaneStore'));
-  }
-  
   render() {
     return (
       <div>
-        <button onClick={this.addLane}>+</button>
+        <button onClick={this.addItem}>+</button>
         <AltContainer
           stores={[LaneStore]}
           inject={ {
             items: () => LaneStore.getState().lanes || []
           } }
         >
-        <Lanes />
+          <Lanes />
         </AltContainer>
       </div>
     );
   }
-addLane() {
-  LaneActions.create('New lane');
+  addItem() {
+    LaneActions.create({id: uuid.v4(), name: 'New lane'});
   }
 }
