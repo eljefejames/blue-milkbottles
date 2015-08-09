@@ -13,10 +13,10 @@ export default class App extends React.Component {
       <div>
         <button onClick={this.addItem}>+</button>
         <AltContainer
-          stores={[LaneStore]}
+          stores={[LaneStore,KanbanStore]}
           inject={ {
             items: () => LaneStore.getState().lanes || []
-          } }
+          }}
         >
           <Lanes />
         </AltContainer>
@@ -30,5 +30,8 @@ export default class App extends React.Component {
   }
   sayHello() {
     LaneActions.hello();
+  }
+  testMe() {
+    KanbanActions.testMe();
   }
 }

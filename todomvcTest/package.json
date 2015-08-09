@@ -1,0 +1,26 @@
+{
+  "name": "todomvc-alt",
+  "version": "1.0.0",
+  "description": "Example Flux architecture using alt but modified to work with webpack",
+  "main": "js/app.js",
+  "dependencies": {
+    "object-assign": "^2.0.0",
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.19",
+   "babel-loader": "^5.3.2",
+   "css-loader": "^0.15.5",
+   "html-webpack-plugin": "^1.6.0",
+   "node-libs-browser": "^0.5.2",
+   "react-hot-loader": "^1.2.8",
+   "style-loader": "^0.12.3",
+   "webpack": "^1.10.1",
+   "webpack-dev-server": "^1.10.1",
+   "webpack-merge": "^0.1.2"
+  },
+  "scripts": {
+     "start": "TARGET=dev webpack-dev-server --devtool eval --progress --colors --hot --inline --history-api-fallback"
+  },
+  "author": "Josh Perez <josh@goatslacker.com>"
+}
